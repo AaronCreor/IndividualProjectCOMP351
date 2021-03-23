@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="utf-8">
+<link href="css/style.css" rel="stylesheet">
+<script src="js/admin.js"></script> 
+<head>
+</head>
+
+
+<hr>
+
+<input type="submit" value="Load Quotes" id="loadQuote" onclick="loadQ();" />
+
+<p>
+<div margin-right: 150px; id="div1">
+</p>
+</div>
+
+<div class="quotes" id="quotes">
+</div>
+<hr>
+<div class="main">
+<textarea id="quote" class="Quote_Field" name="Quote" rows="5" cols="40" required=""></textarea>
+<input type="submit" id="addQuote" value="Add Quote" onclick="addQ()"/>
+</div>
+<hr>
+<p>Enter the ID of the quote you would like to edit<p>
+<input type="submit" value="Load" id="loadeditQuote" onclick="loadeditQ();" />
+<input  type="text" id="loadeditquotefield"/>
+<hr>
+
+<textarea id="editquotefield" class="Quote_Field" disabled="true" name="Quote" rows="5" cols="40" required=""></textarea>
+<hr>
+<input type="submit" value="Edit" id="saveeditQuote" disabled="true" onclick="saveeditQuote();"/>
+<input type="submit" value="Delete" disabled="true" id="deleteQuote" onclick="deleteQuote();"/>
+<hr>
+<footer>
+<a href="index.html">Return</a>
+</footer>
+
+
